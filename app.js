@@ -229,7 +229,7 @@ function loginForm() {
         if (enteredEmail === savedEmail && enteredPassword === savedPassword) {
             Swal.fire({
                 icon: "success",
-                title: "Welcome Back!",
+                title: "Hurrrrayyyy!",
                 text: "Login successful!",
             });
 
