@@ -61,7 +61,7 @@ function signupForm() {
 
 
         //email conditions
-        if (!(emailInput.value.includes("@") || emailInput.value.includes("."))) {
+        if (!(emailInput.value.includes("@") && emailInput.value.includes("."))) {
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
